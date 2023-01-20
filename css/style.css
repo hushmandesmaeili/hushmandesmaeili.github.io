@@ -34,7 +34,8 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-bottom: 15px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -43,7 +44,8 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Playfair Display", Arial, serif;
   font-weight: 400;
-  margin: 0 0 30px 0;
+  /* margin: 0 0 30px 0; */
+  margin: 0 0 15px 0;
   letter-spacing: 1px;
 }
 
@@ -862,15 +864,16 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .sidebar ul {
   margin: 0;
-  padding: 0;
+  padding: 15px;
 }
 .sidebar ul li {
   font-family: "Roboto", Arial, sans-serif;
   list-style: disc;
+  margin: 0 0;
   padding: 2.5px 0;
 }
 .sidebar ul li a {
-  padding-left: 15px;
+  padding-left: 0;
   color: rgba(0, 0, 0, 0.5);
 }
 .sidebar ul li a:hover {
