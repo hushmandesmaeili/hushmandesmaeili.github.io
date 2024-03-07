@@ -590,6 +590,11 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  height: 500px; /* Fixed height for consistency */
+  width: 100%; /* Full width of its parent container */
+  overflow: hidden; /* Ensures content does not spill out */
+  justify-content: space-between; /* Space out the image and description */
+
 }
 .work-inner .work-grid {
   position: relative;
